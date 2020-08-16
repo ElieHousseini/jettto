@@ -1,6 +1,5 @@
 import React from 'react'
-import Enzyme, { shallow, ShallowWrapper } from 'enzyme'
-import EnzymeAdapter from 'enzyme-adapter-react-16'
+import { shallow } from 'enzyme'
 
 import { findByTestAttr, checkProps } from '../test/testUtils'
 import Congrats from './Congrads'
