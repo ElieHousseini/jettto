@@ -4,8 +4,6 @@ import { shallow } from 'enzyme'
 import { findByTestAttr, checkProps } from '../test/testUtils'
 import Congrats from './Congrads'
 
-
-
 const defaultProps = { success: false }
 
 /**
